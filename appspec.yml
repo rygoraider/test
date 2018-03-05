@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /opt/test/
+    destination: /opt/test
 hooks:
   ApplicationStart:
-    - location: /opt/test/scripts/appStart.sh
+    - location: scripts/appStart.sh
