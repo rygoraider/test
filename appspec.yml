@@ -5,4 +5,4 @@ files:
     destination: /opt/test/
 hooks:
   ApplicationStart:
-    - location: scripts/appStart.sh
+    - location: opt/test/scripts/appStart.sh
