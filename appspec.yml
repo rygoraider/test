@@ -3,3 +3,6 @@ os: linux
 files:
   - source: /
     destination: /opt/test/
+hooks:
+  ApplicationStart:
+    - location: scripts/appStart.sh
