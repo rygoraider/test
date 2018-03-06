@@ -10,5 +10,3 @@ hooks:
     - location: scripts/afterInstall.sh
   ApplicationStart:
     - location: scripts/appStart.sh
-  ValidateService:
-    - location: scripts/appStatus.sh
