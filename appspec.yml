@@ -8,7 +8,7 @@ hooks:
     - location: scripts/appStop.sh
   AfterInstall:
     - location: scripts/afterInstall.sh
-  ApplicationStart:
-    - location: scripts/appStart.sh
+  #ApplicationStart:
+  #  - location: scripts/appStart.sh
   ValidateService:
     - location: scripts/appStatus.sh
